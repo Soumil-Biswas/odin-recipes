@@ -1,0 +1,24 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+    padding: 10px;
+}
+
+body{
+    padding: 0px 20px;
+}
+
+.recipie-list li{
+    padding: 10px;
+}
+
+a{
+    background-color: rgb(255, 166, 0);
+    font-size: medium;
+    font-weight: bold;
+    padding: 7px;
+    border-radius: 4px;
+}
+
+img{
+    height: 350px;
+}
