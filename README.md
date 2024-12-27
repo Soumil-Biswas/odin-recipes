@@ -36,7 +36,13 @@ If you wish to  host your website using GitHub pages like in this Project:
 1. Firstly, craete a [build](#building-your-website) using `npm run build`.
 2. Commit and push this repository.
 3. Go through [this guide](https://gist.github.com/cobyism/4730490) on hosting a website made using libraries OR 
-3. Remove `dist` from `.gitignore` and then use this command in your terminal at the project directory: `npm run pages`
+3. Add the `dist` folder and then use this command in your terminal at the project directory: `npm run pages`
+
+1. Firstly, craete a [build](#building-your-website) using `npm run build`.
+2. Create a new `gh-pages` repository by using `git branch gh-pages`
+3. Add the `dist` folder we created using `git add dist -f`. Commit using `git commit -m "Deployment commit"`
+4. Finally, use `npm run pages` to push it to the `gh-[ages` repository.
+5. Finally, [follow the steps here.](https://pages.github.com/)
 
 # React + Vite
 
