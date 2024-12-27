@@ -35,7 +35,8 @@ If you wish to  host your website using GitHub pages like in this Project:
 
 1. Firstly, craete a [build](#building-your-website) using `npm run build`.
 2. Commit and push this repository.
-3. Go through [this guide](https://gist.github.com/cobyism/4730490) on hosting a website made using libraries OR use this command in your terminal at the project directory: `npm run pages`
+3. Go through [this guide](https://gist.github.com/cobyism/4730490) on hosting a website made using libraries OR 
+3. Remove `dist` from `.gitignore` and then use this command in your terminal at the project directory: `npm run pages`
 
 # React + Vite
 
